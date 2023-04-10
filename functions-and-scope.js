@@ -97,7 +97,7 @@ console.log(averageGrade([8, 9, 4, 6, 10]))// geeft 7.4
 
 // ---- Verwachte uitkomst: 9
 function highestGrade(grades) {
-    let highestGrade = 0
+    let highestGrade = gradese[0];
     for (let grade of grades) {
         if (grade > highestGrade) {
             highestGrade = grade
